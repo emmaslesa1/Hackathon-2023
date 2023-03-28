@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer {
+    position: relative;
+    background: #3c393d;
+    color: #f5f5f5;
+    text-align: center;
+    height: 200px;
+    
+
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 3rem;
+    justify-content: space-between;
+}
+
+.socialLinks a {
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+
+.socialLinks a:hover {
+    background: #e68eaf;
+    color: #3c393d;
+}
+
+.footer span {
+    margin-top: 1rem;
+    display: block;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+
+.email {
+    gap: 5px;
+    padding: 3px;
+}
+
+.ikona {
+    font-size: 50px;
+    margin-left: 6rem;
+}
+
+.hak {
+    padding: 3rem;
+}
+.hakaton {
+  justify-content: right;
+
+}

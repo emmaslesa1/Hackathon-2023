@@ -1,0 +1,104 @@
+.innovationsT {
+    text-align: center;
+
+
+}
+
+.par {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+
+
+}
+
+.innovations {
+    justify-content: center;
+    padding: 80px;
+
+}
+
+.innovation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
+}
+
+p {
+    display: flex;
+}
+
+#inovacije {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    column-gap: 20px;
+    justify-items: center;
+}
+
+.innovation-card {
+    font-size: medium;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 300px;
+    height: 395px;
+    background-color: white;
+    box-shadow: 0 20px 30px rgba(29, 132, 35, 0.1);
+    padding-bottom: 2rem;
+    cursor: pointer;
+
+}
+
+.innovation-card:nth-child(1) {
+    border: 2px solid rgb(39, 132, 142);
+    color: rgb(39, 132, 142);
+}
+
+.innovation-card:nth-child(3) {
+    border: 2px solid rgb(34, 201, 214);
+    color: rgb(34, 201, 214);
+
+}
+
+.innovation-card:nth-child(2) {
+    border: 2px solid rgb(115, 90, 251);
+    color: rgb(115, 90, 251);
+}
+
+.ikone {
+    flex: 2;
+    font-size: 200px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 300px;
+    margin-top: 3rem;
+    background-color: #252525;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+
+}
+.subm{
+    margin-top: 8rem;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}

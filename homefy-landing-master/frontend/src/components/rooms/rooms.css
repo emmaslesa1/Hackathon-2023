@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .pregled {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 400px;
+        grid-template-rows: 100px repeat(auto-fill, minmax(0, 1fr));
+        grid-template-areas:
+            "meni meni"
+            "studenti grupe";
+        width: 99%;
+
+        background-color: rgb(65, 65, 223);
+    }
+
+
+    #rooms {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
+        justify-items: center;
+        padding-top: 4rem;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        cursor: pointer;
+    }
+
+    .room-card,.room-card1{
+        font-size: medium;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 30px;
+        width: 300px;
+        height: 150px;
+        box-shadow: 0 20px 30px rgba(29, 132, 35, 0.1);
+        background: rgb(255, 255, 255);
+        background: radial-gradient(circle, rgb(170, 213, 175) 0%, rgb(212, 215, 212) 100%);
+
+    }
+
+
+    .plus {
+        font-size: 80px;
+    }
+
+    .roomT {
+        text-align: center;
+        justify-content: center;
+
+        padding: 50px;
+
+    }
+
+    .text1 {
+        padding: 70px;
+    }
+
+}

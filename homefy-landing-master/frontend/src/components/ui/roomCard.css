@@ -1,0 +1,14 @@
+.room-card,.room-card1{
+    font-size: medium;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 30px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 0 20px 30px rgba(29, 132, 35, 0.1);
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(170, 213, 175) 0%, rgb(212, 215, 212) 100%);
+
+}

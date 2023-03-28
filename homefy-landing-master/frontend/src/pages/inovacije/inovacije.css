@@ -1,0 +1,93 @@
+.fireP{
+    padding-right: 5rem;
+}
+
+.fireP:nth-child(2){
+ 
+    padding-left: 5rem;
+}
+
+.fireP{
+    padding-top: 5rem;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.fireParentText {
+    display: flex;
+    flex-direction: column;
+    flex:7;
+}
+.donji{
+    display: flex;
+    flex:4;
+}
+
+
+
+.gornji {
+    flex:2;
+    text-align: start;
+    font-size: larger;
+    padding-left: 5rem;
+    padding-top: 7rem;
+
+}
+
+.fireS {
+    flex:5;
+}
+.fireS,
+.donji,
+.lijevi,
+.desni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.desni, 
+.lijevi {
+  flex:1;
+    font-size: medium;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 30px;
+    width: 80%;
+    height: 80%;
+    box-shadow: 10px 10px 8px  #88888868;
+    padding: 5rem;
+    background-color: #fdfcfc;
+
+}
+
+.desni {
+    margin-right: 0;
+}
+
+.lijevi {
+    
+    margin-left: 0;
+}
+
+
+img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    padding-bottom: 5rem;
+}
+
+p {
+    padding: 20px;
+}
