@@ -24,7 +24,31 @@ To get started with HomeFy, simply visit our landing page and follow the prompts
 Thank you for choosing HomeFy to help you keep your family safe and secure!
 
 To run the project:
-git clone "https://github.com/emmaslesa1/Hackathon-2023.git",
-cd to cloned repo folder,
-run npm install,
-npm start
+
+git clone "https://github.com/emmaslesa1/Hackathon-2023.git"
+
+Open the folders separately in Visual Studio Code.
+
+In the folder Homefy-landing, in the frontend install node_modules:
+
+npm install
+
+Run folder Homefy-landing:
+
+In backend:
+
+nodemon index.js
+
+In frontend:
+
+npm run start
+
+In the folder Homefy, in the frontend install node_modules:
+
+npm install
+
+Run folder Homefy in frontend:
+
+npm run start
+
+
