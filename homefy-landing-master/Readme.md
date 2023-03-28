@@ -24,7 +24,7 @@ To get started with HomeFy, simply visit our landing page and follow the prompts
 Thank you for choosing HomeFy to help you keep your family safe and secure!
 
 
-To run the project git clone "https://github.com/Husseinhassan1/homefy-landing.git"
+To run the project git clone "https://github.com/emmaslesa1/Hackathon-2023.git"
 cd to cloned repo folder
 run npm install
 npm start
